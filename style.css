@@ -1,0 +1,89 @@
+#countdown {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .input-date{
+    background: #363535d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: inline-grid; 
+   
+      
+}
+
+h1#entrada {
+    margin: 0;
+    margin-bottom: 0.4em;
+    margin-left: 20px;
+}
+
+input#countdownDate {
+    border: none;
+    outline: none;
+    padding: 0.6em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 110%;
+    width: 400px;
+    
+}
+
+button {
+    background-color: #4CAF50; /* color de fondo */
+    border: none; /* sin borde */
+    color: white; /* color del texto */
+    padding: 10px 20px; /* padding (espacio interno) */
+    text-align: center; /* centrar el texto */
+    text-decoration: none; /* sin subrayado */
+    display: inline-block; /* mostrar como bloque en línea */
+    font-size: 16px; /* tamaño de fuente */
+    margin: 10px; /* margen */
+    cursor: pointer; /* cursor */
+    border-radius: 4px; /* borde redondeado */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* sombra */
+    margin-left: 10px;
+}
+  
+  /* Estilo al pasar el ratón sobre el botón */
+  button:hover {
+    background-color: #3e8e41;
+}
+
+div#countdown{
+    font-size: xxx-large;
+    position: absolute;
+    top: 30%;
+    width: 90%;
+}
+
+.output{
+    background: #363535d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: none;
+}
+
+h1#salida{
+    margin: 0;
+    margin-bottom: 0.4em;
+    margin-left: 20px;
+}
